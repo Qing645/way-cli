@@ -6,8 +6,13 @@
 
 <a name="installation"/>
 
+npm源为私有库地址时：
 ```bash
-npm i way-cli-private -g
+npm i way-cli-private 
+```
+未指定私有仓库地址时:
+```
+npm --registry https://test.tailingcloud.cn:8085/ install way-cli-private
 ```
 
 ## 使用
