@@ -1,10 +1,10 @@
 {
   "name": "way-cli-private",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "脚手架工具",
   "main": "index.js",
   "scripts": {
-    "privata-publish": "npm publish -registry https://test.tailingcloud.cn:8085/"
+    "private-pu": "npm publish -registry https://test.tailingcloud.cn:8085/"
   },
   "bin": {
     "way": "bin/main"
